@@ -1,0 +1,31 @@
+http://www.csszengarden.com/217/
+div.explanation p a,
+div.participation p a			{ color:#fff; }
+div.participation p a:hover		{ border-color:#fff; }
+div.requirements p:last-child 	{ font-weight:300; letter-spacing:2px; text-transform:uppercase; }
+section.intro div.summary p:last-child,
+div.requirements p:last-child 	{ border-top:1px solid #ea2e49; margin-top:1em; padding-top:1.5em; }
+div.explanation 				{ color:#fff; padding:5%; }
+div.participation 				{ background:rgba(234,46,73,0.9); color:#fff; padding:5%; }
+div.benefits 					{ background:rgba(255,255,255,0.9); margin-top:10%; padding:5%; }
+div.requirements 				{ background:rgba(255,255,255,0.9); padding:5%; }
+
+http://www.csszengarden.com/216/
+.view-css:before, .view-css:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: .75em;
+    border-top: 2px solid rgba(136,0,68,0.2);
+    width: 4em;
+
+http://www.csszengarden.com/220/
+    [role="article"] {
+    	-webkit-opacity: 0;
+    	-webkit-animation-name: FADEY;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-timing-function: ease-in-out;
+    	-webkit-animation-delay: 0.5s;
+    	-webkit-animation-fill-mode: forwards;
+    	-webkit-animation-iteration-count: 1;
+    }
